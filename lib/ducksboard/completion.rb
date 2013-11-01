@@ -27,10 +27,3 @@ module Ducksboard
   end
 end
 
-
-# curl -v -u YOUR_API_KEY:unused -d '{
-#     "value": {
-#         "current": 19790,
-#         "min": 0,
-#         "max": 25000 }}' \
-#     https://push.ducksboard.com/values/236
