@@ -8,9 +8,9 @@ module Ducksboard
       @data[:value] ||={}
     end
     
-    def current; @data[:current] end
-    def min; @data[:min] end
-    def max; @data[:max] end
+    def current; @data[:value][:current] end
+    def min; @data[:value][:min] end
+    def max; @data[:value][:max] end
 
     def current=(number)
       @data[:value][:current] = number
