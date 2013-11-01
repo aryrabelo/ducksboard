@@ -13,8 +13,8 @@ describe Ducksboard::Completion do
 
     it { completion.data[:min].must_equal(0) }
 
-      before { completion.min = 5000 }
+      before { completion.max = 5000 }
 
-    it { completion.data[:min].must_equal(5000) }
+    it { completion.data[:max].must_equal(5000) }
   end
 end
